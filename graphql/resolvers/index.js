@@ -1,7 +1,8 @@
-const Query = require('./Query');
-const Mutation = require('./Mutation');
-const Movie = require('./Movie');
-const Director = require('./Director');
+const Query = require('./query/Query');
+const Movie = require('./query/Movie');
+const Director = require('./query/Director');
+
+const Mutation = require('./mutation/index');
 
 module.exports = {
     Query,
